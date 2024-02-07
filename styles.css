@@ -21,11 +21,11 @@ body {
     width: 35%;
     height: 250px;
     margin: 20px auto;
+    margin-bottom: 230px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .conversion {
@@ -54,4 +54,16 @@ button {
 button:hover {
     background: linear-gradient(80deg, rgb(0, 0, 55), rgb(10, 10, 171));
     transition: 0.4s;
+}
+
+/* Personnalisation de la barre de scroll */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: linear-gradient(45deg, rgb(7, 7, 138), rgb(10, 10, 184));
+}
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, rgb(7, 7, 138), rgb(10, 10, 184));
+    border-radius: 20px;
 }
